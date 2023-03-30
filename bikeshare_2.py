@@ -59,7 +59,7 @@ def display_raw_data(df):
     if raw_data_input == 'yes':
         print("There are", str(num_rows), "rows \n")
         pd.set_option('display.max_columns',200)
-        print(df.head(i))
+        print(df.head())
         raw_data_input_two = 'yes'
         while raw_data_input_two == 'yes':
             raw_data_input_two = str(input("Would you like to see 5 more rows of data, yes or no?").lower())
