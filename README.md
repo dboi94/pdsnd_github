@@ -5,7 +5,7 @@ February 2023
 NYC, Chicago, DC Bikeshare Analysis
 
 ### Description
-Interactive analysis of bikeshare data from 3 cities: NYC, Chicago, and DC. The user selects a city to see data from. The user can also filter the data by month and/or day of the week to get even more insight from the data.
+Interactive analysis of bikeshare data from 3 cities: NYC, Chicago, and DC. The user selects a city to see data from. The user can also filter the data by month and/or day of the week to get even more insight from the data. The program will restart until the user indicates otherwise
 
 ### Files used
 washington.csv
