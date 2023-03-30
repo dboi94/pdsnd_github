@@ -228,6 +228,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
         
+        #Changed the conditions underwhich the program closes
         while restart != 'yes' or 'no':
             restart = str(input("\nWould you like to restart? Enter yes or no.\n").lower())
             if restart == 'yes':
